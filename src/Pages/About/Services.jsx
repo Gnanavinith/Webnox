@@ -4,7 +4,7 @@ import service from '../../assets/service.jpg'; // Importing the service image
 
 const Services = () => {
   return (
-    <div >
+    <div className='mt-16 sm:mt-0' >
       {/* Header Section with Background Image */}
       <div
         className="relative flex flex-col items-center justify-center text-center bg-cover bg-center w-full h-screen bg-no-repeat mb-12  "

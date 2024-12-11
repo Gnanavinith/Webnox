@@ -5,9 +5,10 @@ import Team3 from "../assets/Team3.jpg";
 
 const Blog = () => {
   return (
-    <div className="container mx-auto px-4 py-8 ml-10 mr-10">
+    <div className="container mx-auto px-4 py-8 ml-10 mr-10 mt-64 sm:mt-0">
+
       {/* Header Section */}
-      <div className="text-center mb-12">
+      <div className="text-center mb-12 ">
         <p className="text-gray-600 text-sm">Meet Our</p>
         <h1 className="text-3xl font-bold mt-2">Our Team</h1>
         <p className="text-gray-700 mt-4">
@@ -33,7 +34,7 @@ const Blog = () => {
         </div>
 
         {/* Team Member 2 */}
-        <div className="relative flex flex-col items-center">
+        <div className="relative flex flex-col items-center mt-8 sm:mt-0">
           <img
             src={Team2}
             alt="John Smith"
@@ -46,7 +47,7 @@ const Blog = () => {
         </div>
 
         {/* Team Member 3 */}
-        <div className="relative flex flex-col items-center">
+        <div className="relative flex flex-col items-center mt-8 sm:mt-0">
           <img
             src={Team3}
             alt="Sarah Lee"

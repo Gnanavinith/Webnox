@@ -6,7 +6,7 @@ import { faPlay } from "@fortawesome/free-solid-svg-icons";
 
 const Video = () => {
   return (
-    <div className="relative mt-28">
+    <div className="relative mt-20 ">
       {/* Hero Section */}
       <div
         className="bg-cover bg-center min-h-screen flex flex-col items-center justify-center text-white text-center relative"
@@ -33,8 +33,8 @@ const Video = () => {
       </div>
 
       {/* Stats Section */}
-      <div className="absolute left-0 right-0 bottom-0 transform translate-y-1/2 bg-gray-100 text-center border-t border-b border-gray-300 mx-4 sm:mx-10 rounded-lg shadow-lg">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 px-4 sm:px-10 py-8">
+      <div className="absolute left-0 right-0 bottom-0 transform translate-y-1/2 bg-gray-100 text-center border-t border-b border-gray-300 mx-4 sm:mx-10 rounded-lg shadow-lg ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 px-4 sm:px-10 py-8 ">
           {/* Stat 1 */}
           <div className="flex flex-col items-center border-r border-gray-300 last:border-none">
             <FaHouseUser className="text-blue-600 text-4xl mb-2" />

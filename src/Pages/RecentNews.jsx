@@ -9,7 +9,7 @@ import person3 from "../assets/person3.jpg";
 
 const RecentNews = () => {
   return (
-    <div className="container mx-auto px-4 py-8 mt-64 relative ">
+    <div className="container mx-auto px-4 py-8 mt-72 relative flex flex-col items-center justify-center ">
       {/* Header Section */}
       <div className="text-center mb-12 relative z-10">
         <p className="text-gray-600 text-sm">Why Choose Us</p>
@@ -56,7 +56,7 @@ const RecentNews = () => {
         </div>
 
         {/* Image 2 */}
-        <div className="relative shadow-lg mt-56 sm:mt-0">
+        <div className="relative shadow-lg mt-64 sm:mt-0">
           <img src={Clean2} alt="Clean2" className="w-full h-60 object-cover" />
           <div className="absolute top-0 right-0">
             <h2 className="py-5 px-5 bg-blue-500 text-white font-bold text-center">
@@ -87,7 +87,7 @@ const RecentNews = () => {
         </div>
 
         {/* Image 3 */}
-        <div className="relative shadow-lg mt-56 sm:mt-0">
+        <div className="relative shadow-lg mt-64 sm:mt-0">
           <img src={Clean3} alt="Clean3" className="w-full h-60 object-cover" />
           <div className="absolute top-0 right-0">
             <h2 className="py-5 px-5 bg-blue-500 text-white font-bold text-center">
