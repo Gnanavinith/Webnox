@@ -5,7 +5,7 @@ import Team3 from "../assets/Team3.jpg";
 
 const Blog = () => {
   return (
-    <div className="container mx-auto px-4 py-8 ml-10 mr-10 ">
+    <div className="container mx-auto px-4 py-8 ml-10 mr-10">
       {/* Header Section */}
       <div className="text-center mb-12">
         <p className="text-gray-600 text-sm">Meet Our</p>
@@ -18,7 +18,7 @@ const Blog = () => {
       </div>
 
       {/* Team Members */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {/* Team Member 1 */}
         <div className="relative flex flex-col items-center">
           <img

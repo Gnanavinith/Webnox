@@ -8,7 +8,7 @@ import Video from "./Video";
 import RecentNews from "./RecentNews";
 import Footer from "./Footer";
 import ThreeBox from "./ThreeBox";
-import About from "./About";
+import About from "./About/About";
 
 const Home = () => {
   return (
@@ -30,8 +30,8 @@ const Home = () => {
         
         </div>
       </div>
+   
       <About/>
-      
       
       <Blog/>
       <Video/>

@@ -23,7 +23,7 @@ const RecentNews = () => {
       </div>
 
       {/* Image Gallery */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-12 relative z-0">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-12 relative z-0">
         {/* Image 1 */}
         <div className="relative shadow-lg ">
           <img src={Clean1} alt="Clean1" className="w-full h-60 object-cover" />
